@@ -12,3 +12,5 @@ alias b bundle
 # Bindings
 bind \cr  peco_search_cmd
 bind \cd  delete-char
+
+starship init fish | source
