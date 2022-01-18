@@ -1,0 +1,33 @@
+# No newlines between prompts
+add_newline = false
+
+# Right and left prompts
+right_format = "$time"
+format = "$hostname$username$directory$ruby$git_branch"
+
+[git_branch]
+style = "bold purple"
+
+[directory]
+style = "bold blue"
+
+[hostname]
+ssh_only = false
+format = "[$hostname]($style)/"
+trim_at = "-"
+style = "bold green"
+disabled = false
+
+[username]
+style_user = "bold green"
+show_always = true
+
+[ruby]
+format = "[$symbol$version]($style) "
+style = "bold red"
+
+[time]
+time_format = "%T"
+style = "bright-white"
+format = "$time($style)"
+disabled = false
