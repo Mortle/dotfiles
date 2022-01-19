@@ -3,8 +3,8 @@
 #################################
 window:
   dimensions:
-    columns: 110
-    lines: 35
+    columns: 100
+    lines: 25
 
 scrolling:
   history: 10000
@@ -13,7 +13,7 @@ scrolling:
 # Fonts configuration
 #################################
 font:
-  size: 13.0
+  size: 12.0
 
 #################################
 # Colors configiration (Dracula)
@@ -23,7 +23,7 @@ colors:
   primary:
     background: '0x282a36'
     foreground: '0xf8f8f2'
- 
+
   # Normal colors
   normal:
     black:   '0x000000'
@@ -34,7 +34,7 @@ colors:
     magenta: '0xff79c6'
     cyan:    '0x8be9fd'
     white:   '0xbbbbbb'
- 
+
   # Bright colors
   bright:
     black:   '0x555555'

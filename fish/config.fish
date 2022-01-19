@@ -1,4 +1,4 @@
-set fish_greeting "Broadcasting from square brawl..."
+set fish_greeting "Broadcasting from Square Brawl..."
 
 set -x -g TERM   xterm-256color
 set -x -g LC_ALL en_GB.UTF-8
