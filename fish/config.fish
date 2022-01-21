@@ -13,4 +13,9 @@ alias b bundle
 bind \cr  peco_search_cmd
 bind \cd  delete-char
 
+# Ruby version manager
+set -x PATH $HOME/.rbenv/bin:$PATH
+eval (rbenv init -)
+set -x PATH $HOME/.rbenv/plugins/ruby-build/bin:$PATH
+
 starship init fish | source
